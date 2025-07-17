@@ -554,7 +554,7 @@ export function VisualEditor({ template, onBack, onSave }: VisualEditorProps) {
                 variant="outline"
                 size="sm"
                 onClick={addPage}
-                className="text-white border-white/20"
+                className="text-black border-white/20"
               >
                 <Plus className="w-4 h-4 mr-2" />
                 Add Page
