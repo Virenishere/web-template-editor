@@ -10,8 +10,9 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 // CORS config
+
 app.use(cors({
-  origin: ["http://localhost:5173", "https://web-template-editor.vercel.app/"],
+  origin: ["http://localhost:3000", "https://web-template-editor.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
